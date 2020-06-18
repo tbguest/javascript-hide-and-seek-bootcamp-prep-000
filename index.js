@@ -5,7 +5,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  
+  var targ = document.querySelector('#nested')
 }
 
 function increaseRankBy(n) {
