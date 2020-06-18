@@ -24,10 +24,7 @@ function deepestChild() {
   
   while (current.hasChildNodes()) {
     let target = current.innerHTML
-    for (let i = 0; i < current.length; i++) {
-      next.push(current[i])
-    }
-    current.shift
+    current = current.querySelector('div')
   }
   
   return target
