@@ -8,4 +8,10 @@ function nestedTarget() {
   
 }
 
-function increaseRankBy(n)
+function increaseRankBy(n) {
+  return parseInt(n) + 1
+}
+
+function deepestChild() {
+  
+}
