@@ -1,6 +1,7 @@
 
 function getFirstSelector(selector) {
-  return selector
+  return document.querySelector(selector)
+  // return selector
 }
 
 console.log(getFirstSelector('h1'))
