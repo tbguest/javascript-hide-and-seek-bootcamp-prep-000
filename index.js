@@ -27,6 +27,6 @@ function deepestChild() {
     current = current.querySelector('div')
   }
   
-  return last.innerHTML
+  return last
   
 }
