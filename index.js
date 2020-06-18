@@ -20,8 +20,7 @@ function deepestChild() {
   let gNode = document.querySelector('#grand-node')
   
   let current = gNode
-  let next = []
-  
+  let last = current
   while (current) {
     // let target = current.innerHTML
     current = current.querySelector('div')
