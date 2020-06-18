@@ -4,9 +4,6 @@ function getFirstSelector(selector) {
   return sel[0]
 }
 
-console.log(getFirstSelector('h1'))
-
-
 function nestedTarget() {
   
 }
