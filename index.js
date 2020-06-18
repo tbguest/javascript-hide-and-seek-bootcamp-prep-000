@@ -22,7 +22,7 @@ function deepestChild() {
   let current = gNode
   let next = []
   
-  while (current.hasChildNodes()) {
+  while (current) {
     let target = current.innerHTML
     current = current.querySelector('div')
   }
