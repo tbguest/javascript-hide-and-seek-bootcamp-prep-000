@@ -28,5 +28,4 @@ function deepestChild() {
   }
   
   return last
-  
 }
