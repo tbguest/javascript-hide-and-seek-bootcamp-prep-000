@@ -30,4 +30,6 @@ function deepestChild() {
     current.shift
   }
   
+  return target
+  
 }
