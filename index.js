@@ -6,6 +6,7 @@ function getFirstSelector(selector) {
 
 console.log(getFirstSelector('h1'))
 
+
 function nestedTarget() {
   
 }
