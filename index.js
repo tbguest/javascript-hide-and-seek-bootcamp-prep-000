@@ -1,6 +1,6 @@
 
 function getFirstSelector(selector) {
-  return selector[0]
+  return selector
 }
 
 console.log(getFirstSelector('h1'))
