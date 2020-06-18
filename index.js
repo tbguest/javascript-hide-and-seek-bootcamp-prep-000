@@ -1,6 +1,6 @@
 
 function getFirstSelector(selector) {
-  var sel = document.querySelectorAll(selector)
+  var sel = document.getElementById('app').querySelectorAll(selector)
   return sel[0]
 }
 
