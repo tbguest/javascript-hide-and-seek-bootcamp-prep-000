@@ -23,10 +23,10 @@ function deepestChild() {
   let next = []
   
   while (current) {
-    let target = current.innerHTML
+    // let target = current.innerHTML
     current = current.querySelector('div')
   }
   
-  return target
+  return current.innerHTML
   
 }
